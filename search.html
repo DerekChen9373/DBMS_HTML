@@ -138,7 +138,7 @@
                         <ul>
                             {% for game in games %}
                                 <li>
-                                    <a href="/comments/{{ game.id }}">{{ game.name }}</a>
+                                    <a href="/comments/{{ game.id }}">{{ game.game_name }}</a>
                                     <p>Year: {{ game.year }}, Platform: {{ game.platform }}</p>
                                     <p>Genre: {{ game.genre }}, Sales: {{ game.global_sales }}</p>
                                     <p>Rating: {{ game.rating }}</p>
